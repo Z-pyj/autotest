@@ -29,11 +29,19 @@ public class BasicAnnotation {
 
     @BeforeClass
     public void testBeforClass(){
-        System.out.println("BeforeClass方法在测试方法之后运行");
+        System.out.println("BeforeClass方法在测试类之后运行");
     }
     @AfterClass
     public void testAfterClass(){
-        System.out.println("AfterClass方法在测试方法之后运行");
+        System.out.println("AfterClass方法在测试类之后运行");
+    }
+    @BeforeSuite
+    public void testBeforeSuite(){
+        System.out.println("BeforeSuit方法测试套件之前执行");
+    }
+    @AfterSuite
+    public void testAfterSuite(){
+        System.out.println("AfterSuite方法测试套件之后执行");
     }
 
 }
