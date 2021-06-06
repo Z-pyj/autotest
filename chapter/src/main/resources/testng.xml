@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="exception">
+    <test name="testAssert">
+        <classes>
+            <class name="com.course.extent.TestExcep"/>
+            <methods>
+                <include name="test1"/>
+                <include name="test2"/>
+                <include name="test3"/>
+            </methods>
+        </classes>
+    </test>
+
+<!--    配置监听（pom文件获取）-->
+    <listeners>
+        <listener class-name="com.yimalselyam.testng.listener."
+    </listeners>
+</suite>
