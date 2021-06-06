@@ -13,6 +13,6 @@
 
 <!--    配置监听（pom文件获取）-->
     <listeners>
-        <listener class-name="com.vimalselvam.testng.listener."
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
     </listeners>
 </suite>
