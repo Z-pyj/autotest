@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="classGroup">
+<!--    执行全部组-->
+    <test name="testAll">
+        <classes>
+            <class name="com.course.testng.group.GroupStudent1"/>
+            <class name="com.course.testng.group.GroupStudent2"/>
+            <class name="com.course.testng.group.GroupTeacher1"/>
+            <class name="com.course.testng.group.GroupTeacher2"/>
+        </classes>
+    </test>
+<!--只执行学生组-->
+    <test name="onlyRunStudnet">
+<!--        指定学生组-->
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.course.testng.group.GroupStudent1"/>
+            <class name="com.course.testng.group.GroupStudent2"/>
+            <class name="com.course.testng.group.GroupTeacher1"/>
+            <class name="com.course.testng.group.GroupTeacher2"/>
+        </classes>
+    </test>
+</suite>
