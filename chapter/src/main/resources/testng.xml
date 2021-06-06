@@ -2,7 +2,7 @@
 <suite name="exception">
     <test name="testAssert">
         <classes>
-            <class name="com.course.extent.TestExcep"/>
+            <class name="com.course.extent.TestExcept"/>
             <methods>
                 <include name="test1"/>
                 <include name="test2"/>
@@ -13,6 +13,6 @@
 
 <!--    配置监听（pom文件获取）-->
     <listeners>
-        <listener class-name="com.yimalselyam.testng.listener."
+        <listener class-name="com.vimalselvam.testng.listener."
     </listeners>
 </suite>

@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TestExcep {
+public class TestExcept {
     @Test
     public void test1(){
         Assert.assertEquals(1,10);
