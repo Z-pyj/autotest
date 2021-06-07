@@ -1,0 +1,29 @@
+[
+  {
+    "description": "这是一个Post请求带headers和cookie的例子",
+    "request": {
+      "uri": "/postdemoheader",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "headers": {
+        "Content-type": "application/json"
+      },
+      "json": {
+        "name": "huhansan",
+        "age": "35"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status":200,
+      "json": {
+        "method": "success",
+        "code": -1
+      }
+      }
+    }
+]

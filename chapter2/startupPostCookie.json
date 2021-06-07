@@ -1,0 +1,26 @@
+[
+  {
+    "description": "这是一个Post请求的例子",
+    "request": {
+      "uri": "/postdemocookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "huhansan",
+        "age": "35"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status":200,
+      "json": {
+        "method": "success",
+        "code": -1
+      }
+      }
+    }
+]

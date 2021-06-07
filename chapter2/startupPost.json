@@ -1,0 +1,19 @@
+[
+  {
+    "description": "这是一个Post请求的例子",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post",
+      "forms": {
+        "name": "huhansan",
+        "age": "35"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "text": "post方法返回"
+    }
+  }
+]
