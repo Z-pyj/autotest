@@ -1,0 +1,62 @@
+[
+  {
+    "description": "moko一个带cookie返回的接口",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+     "text": "恭喜获取cookie成功",
+      "cookies": {
+        "login": "true"
+      }
+    }
+  },
+  {
+    "description": "这是一个get请求带cookie的例子",
+    "request": {
+      "uri": "/getdemocookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status":200,
+      "json": {
+        "method": "success",
+        "code": -1
+      }
+    }
+  },
+  {
+    "description": "这是一个post请求带cookie的例子",
+    "request": {
+      "uri": "/postdemocookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "huhansan",
+        "age": "35"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "status":200,
+      "json": {
+        "method": "success",
+        "code": -1
+      }
+      }
+    }
+]
