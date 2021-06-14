@@ -16,7 +16,7 @@ public class TestExcept {
     }
 
     @Test
-    public void test3(){
+    public void test3() {
         Reporter.log("这是自己写的日志");
         throw new RuntimeException("这是我们自己运行时异常");
     }
